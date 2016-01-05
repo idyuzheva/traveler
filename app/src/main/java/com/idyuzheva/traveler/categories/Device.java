@@ -1,0 +1,21 @@
+package com.idyuzheva.traveler.categories;
+
+/**
+ * Created by inessa on 05/01/16.
+ */
+public enum Device {
+
+    MOBILE_PHONE("MOBILE_PHONE"),
+    CHARGER_FOR_MOBILE_PHONE("CHARGER_FOR_MOBILE_PHONE"),
+    PHOTO_CAMERA("PHOTO_CAMERA"),
+    CHARGER_FOR_PHOTO_CAMERA("CHARGER_FOR_PHOTO_CAMERA"),
+    VIDEO_CAMERA("VIDEO_CAMERA"),
+    CHARGER_FOR_VIDEO_CAMERA("CHARGER_FOR_VIDEO_CAMERA"),
+    HEADSET("HEADSET"),
+    SOCKET_ADAPTER("SOCKET_ADAPTER"),
+    FLASH_CARDS("FLASH_CARDS");
+
+    Device(String name) {
+    }
+
+}
